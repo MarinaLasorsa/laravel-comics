@@ -1,10 +1,16 @@
-<header>
+<header class="page-header">
     <div class="container">
-        <ul>
-            <li><a href="{{route('home')}}">Home</a></li>
-            <li><a href="{{route('about')}}">Chi Siamo</a></li>
-            <li><a href="{{route('comics')}}">Comics</a></li>
-            <li><a href="{{route('contacts')}}">Contatti</a></li>
-        </ul>
+        <div class="row align-items-center">
+            <div class="d-flex align-items-center justify-content-between py-2">
+                <img class="logo" src="{{Vite::asset('resources/img/dc-logo.png')}}"/>
+                <ul class="d-flex gap-4">
+                    <li><a href="{{route('home')}}">HOME</a></li>
+                    <li><a href="{{route('about')}}">ABOUT US</a></li>
+                    <li><a href="{{route('comics')}}">COMICS</a></li>
+                    <li><a href="{{route('contacts')}}">CONTACTS</a></li>
+                </ul>
+                <input type="text" name="search" placeholder="Search"/>
+            </div>
+        </div>
     </div>
 </header>
