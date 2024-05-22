@@ -36,3 +36,18 @@ img {
         border-bottom: 2px solid #0282F9;
     }
 }
+
+.page-footer {
+    background-color: #303030;
+    color: #0282F9;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    button {
+        border-radius: 0;
+        border: 3px solid #0282F9;
+        color: white;
+    }
+}
